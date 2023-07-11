@@ -1,255 +1,329 @@
 *{
-    margin: 0;
-    padding: 0;
-    max-width: 1440px;
-    font-family: 'EB Garamond', serif;
+margin: 0;
+padding: 0;
+max-width: 1440px;
+font-family: 'EB Garamond', serif;
 } 
 
 /* Header style   ... */
 header{
-    background-color:#E554731A;
-    height: 100vh;
+background-color:#E554731A;
+height: 100vh;
 } 
 .header-container{
-    display: flex;
-    align-items: center;
-    gap: 30px; 
-    padding:0px 150px;
+display: flex;
+align-items: center;
+gap: 30px; 
+padding:0px 150px;
 } 
 .header-left{
-    width:50%;
-    padding:50px 0px;
+width:50%;
+padding:50px 0px;
 } 
 .header-right{
-    width: 50%;
+width: 50%;
 } 
 .header-title{
-    font-size: 60px;
-    font-weight: 800;
+font-size: 60px;
+font-weight: 800;
 
 } 
 .heder-img{
-    width: 535px;
-    height: 650px;
+width: 535px;
+height: 650px;
 }
 .header-details{
-    color: rgba(39, 39, 39, 0.60);
-    font-style: normal;
-    font-weight: 400; 
-    margin: 20px 0;
+color: rgba(39, 39, 39, 0.60);
+font-style: normal;
+font-weight: 400; 
+margin: 20px 0;
 } 
 .header-btn{
-    border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    padding: 12px 20px;
-    color: white;
+border-radius: 8px;
+background: #E55473;
+border: 0;
+padding: 12px 20px;
+color: white;
 } 
 /* Main section   one... */
 
 .section-one{
-    text-align: center;
-    margin:50px auto;
+text-align: center;
+margin:50px auto;
 }
 .section-one-title{ 
-    color: #272727;
-    font-family: Lato;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 10px;
+color: #272727;
+font-family: Lato;
+font-size: 35px;
+font-weight: 800;
+margin-bottom: 10px;
 }
 
 .section-one-describe{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px; 
-    margin-bottom: 20px;
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px; 
+margin-bottom: 20px;
 }
 
 
 .section-one-div-container{
-    display: flex;
-    gap: 43px;
-    width:60%;
-    margin: 0px auto;
+display: flex;
+gap: 43px;
+width:60%;
+margin: 0px auto;
 } 
 .div-one{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
 } 
 .div-two{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15); 
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15); 
 } 
 .div-three{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
 } 
 
 .div-img{ 
-    margin-top: 50px;
-    padding:0px 10px;
+margin-top: 50px;
+padding:0px 10px;
 } 
 
 .div-img >img{
-    width: 220px;
-    height: 300px;
-    margin-bottom: 0;
+width: 220px;
+height: 300px;
+margin-bottom: 0;
 } 
 
 .flower-name{
-    color: #272727;
-    font-size: 20px;
-    font-weight: 700; 
-    margin-top: 10px;
-    margin-bottom: 10px;
+color: #272727;
+font-size: 20px;
+font-weight: 700; 
+margin-top: 10px;
+margin-bottom: 10px;
 } 
 
 /* Section two  */
 .section-two-main{
-    margin-bottom: 50px;
+margin-bottom: 50px;
 }
 .section-two{ 
-    text-align: center;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    width: 60%;
-    margin:0 auto; 
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 20px;
+text-align: center;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+width: 60%;
+margin:0 auto; 
+display: flex;
+justify-content: space-around;
+padding: 50px 20px;
 } 
 .section-two-decribe{
-    color: rgba(39, 39, 39, 0.80);
-    font-size: 18px;
-    font-weight: 600;
+color: rgba(39, 39, 39, 0.80);
+font-size: 18px;
+font-weight: 600;
 } 
 
 /* Section three style  */
 
 .section-three{
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    text-align: center; 
-    margin-bottom: 50px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+text-align: center; 
+margin-bottom: 50px;
 } 
 .section-three-title{
-    color: #272727;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom:10px;
+color: #272727;
+font-size: 35px;
+font-weight: 800;
+margin-bottom:10px;
 } 
 .off{
-    color: #E55473;
+color: #E55473;
 } 
 
 .section-three-details{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom:10px;
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom:10px;
 } 
 
 .btn-three{
-    border-radius: 8px;
-    background: #E55473;
-    border: 0;
-    padding: 12px 20px;
-    color: white;
-    margin-bottom:10px;
+border-radius: 8px;
+background: #E55473;
+border: 0;
+padding: 12px 20px;
+color: white;
+margin-bottom:10px;
 } 
 .section-three-div{
-    display: flex;
-    align-items: center; 
-    width: 60%;
-    margin: 0 auto;
-    padding: 40px;
-    justify-content: space-around;
+display: flex;
+align-items: center; 
+width: 60%;
+margin: 0 auto;
+padding: 40px;
+justify-content: space-around;
 } 
 .sub-div-three{
-   padding: 20px;
+padding: 20px;
 }
 .sub-div-three > img{
-    width: 220px;
-    height: 300px;
+width: 220px;
+height: 300px;
 } 
 
 /* Section four style  */
 .section-four{
-    text-align: center;
-    width: 65%; 
-    margin: 0 auto; 
-    margin-bottom: 30px; 
+text-align: center;
+width: 65%; 
+margin: 0 auto; 
+margin-bottom: 50px; 
 } 
 
 .section-four-title{
-    color: #272727;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 10px;
+color: #272727;
+font-size: 35px;
+font-weight: 800;
+margin-bottom: 10px;
 } 
 .div-flower{
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 10px; 
-   justify-content: space-around;
+display: flex;
+margin-top: 40px;
+margin-bottom: 10px; 
+justify-content: space-around;
 } 
 .small-flower > img{
-    width:200px;
-    height: 230px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+width:200px;
+height: 230px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 } 
 
 
 /* .............five    */  
+
+.div-six{
+width: 65%;
+margin: 0 auto; 
+margin-bottom: 50px; 
+background-image: url('../Flower\ Asset/Rectangle 9.png');
+background-size: cover;
+background-position: center;
+}
+.div-six-title{
+color: #272727;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+padding-top: 70px;
+
+
+} 
+.details{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin:15px;
+} 
+
+.input-six{
+border-radius: 8px;
+background: #FFF; 
+border: 0; 
+padding: 12px 200px 12px 5px;
+margin-right: 20px;
+} 
+.div-input{
+display: flex;
+padding-bottom: 70px;
+width: 50%;
+margin: 0 auto;
+
+} 
+
+/* six   ... */
+
 .order-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .order-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .order-section p {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+border-radius: 5px; 
+margin-bottom: 50px;
+}
+
+.order-section h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.order-section p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.order-section form {
+display: grid;
+gap: 10px;
+}
+
+.order-section label {
+font-weight: bold;
+}
+
+.order-section input,
+.order-section select,
+.order-section textarea {
+width: 100%;
+padding: 8px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+.order-section button[type="submit"] {
+background-color:#E55473;;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.order-section button[type="submit"]:hover {
+background-color:#8d1b33;;
+}
+/* Footer  style */
+footer{
+    text-align: center;
+    background: #111010;
+}
+
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding:30px;
+
+}  
+.shop-style{
+    color: #FFFFFF;
+}
+.footer-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+} 
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .order-section form {
-    display: grid;
-    gap: 10px;
-  }
-  
-  .order-section label {
-    font-weight: bold;
-  }
-  
-  .order-section input,
-  .order-section select,
-  .order-section textarea {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .order-section button[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .order-section button[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
+    font-weight: 400; 
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
